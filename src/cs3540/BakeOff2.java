@@ -6,7 +6,7 @@ import processing.core.PApplet;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class BakeOff2_OliviaAndDiegoAndEmery extends PApplet {
+public class BakeOff2 extends PApplet {
 
 	// USER FEEDBACK CODE (Olivia)
 	int logoFill = color(60, 60, 192, 192);
@@ -41,7 +41,7 @@ public class BakeOff2_OliviaAndDiegoAndEmery extends PApplet {
 
 	// The argument passed to main must match the class name
 	public static void main(String[] args) {
-		PApplet.main("cs3540.BakeOff2_OliviaAndDiegoAndEmery");
+		PApplet.main("cs3540.BakeOff2");
 	}
 
 	private class Destination {
@@ -249,6 +249,7 @@ public class BakeOff2_OliviaAndDiegoAndEmery extends PApplet {
 			if (draggingCorner) {
 				draggingCorner = false;
 				activeCorner = -1;
+				return;
 			} else {
 				draggingCorner = true;
 				activeCorner = c;
@@ -320,8 +321,7 @@ public class BakeOff2_OliviaAndDiegoAndEmery extends PApplet {
 	}
 
 	public void mouseReleased() {
-//		draggingCorner = false;
-//		activeCorner = -1;
+
 	}
 
 	// =============================================================
