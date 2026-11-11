@@ -1,5 +1,0 @@
-I utilized ChatGPT throughout this project for assistance with some math, debugging, and processing syntax.
-
-Much of my math skills are a little rusty, and as such I used ChatGPT for help with some of the equations found in the Circle class for speed calculations. Additionally, I was having a lot of issues with some of that math, and used ChatGPT to help me locate problem points when debugging them. ChatGPT was also a great help for helping me learn and understand much of Processing's syntax better, primarily with the PGraphics which are used for creating the text effect.
-
-Only a few lines of code were directly copied from AI output, and they have been notated as such in comments.
